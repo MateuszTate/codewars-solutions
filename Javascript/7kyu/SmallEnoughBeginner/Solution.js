@@ -1,0 +1,8 @@
+function smallEnough(a, limit){
+    for(element of a){
+        if(element>limit) return false;
+    }
+    return true;
+}
+
+console.log(smallEnough([78, 117, 110, 99, 104, 117, 107, 115], 100));

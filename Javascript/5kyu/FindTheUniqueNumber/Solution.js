@@ -13,7 +13,6 @@ function findUniq(arr) {
             }
         }
     }
-
     return unique;
   }
 

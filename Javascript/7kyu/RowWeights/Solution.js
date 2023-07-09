@@ -5,7 +5,7 @@ function rowWeights(array){
         if(i%2==0) sum1+=array[i]; // if current index is even number add it to the sum1
         else if(i%2!=0) sum2+=array[i]; // if current index is odd number add it to the sum2
     }
-    return [sum1, sum2]; // return sum1, sum2 as an array;
+    return [sum1, sum2]; // return sum1, sum2 as an array; 
   }
 
 console.log(rowWeights([100,50,5,2]));

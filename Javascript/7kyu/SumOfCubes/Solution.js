@@ -6,5 +6,5 @@ function sumCubes(n){
     return sum; // return sum as a function output
   }
 
-console.log(sumCubes(3));
+console.log(sumCubes(3)); 
 
